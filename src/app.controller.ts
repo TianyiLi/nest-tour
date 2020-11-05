@@ -10,8 +10,4 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('cats')
-  getCat() {
-    return 'control in app'
-  }
 }
